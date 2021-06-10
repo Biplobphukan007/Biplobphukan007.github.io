@@ -1,0 +1,379 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    display: block;
+    background-color: #bde5e7;
+    height: 30vh;
+    text-align: center;
+    padding: 1%;
+    max-width: 100%;
+    align-items: center;
+}
+.header-content{
+    width: 95%;
+    height: 90%;
+    border: 2px solid #fa9536;
+    margin: auto;
+    padding: 1%;
+}
+.header-content h1{
+    letter-spacing: 0.8em;
+    font-weight: bolder;
+}
+.extras{
+    display: flex;
+    padding: 1%;
+}
+.buttons{
+    display: flex;
+    padding: 2%;
+    width: 50%;
+    justify-content: space-around;
+}
+.buttons button{
+    font-family: 'Poppins', sans-serif;
+    background: transparent;
+    border: none;
+}
+.buttons button a{
+    text-decoration: none;
+    font-size: 140%;
+    color: rgb(36, 35, 35);
+    font-weight: 550;
+}
+.social{
+    display: flex;
+    width: 50%;
+    justify-content: flex-end;
+}
+.social button{
+    border: none;
+    background: transparent;
+    margin-right: 5%;
+}
+#fb{
+    width: 20px;
+    height: auto;
+}
+#whatsapp{
+    width: 25px;
+    height: auto;
+}
+#insta{
+    width: 22px;
+    height: auto;
+}
+/*For the our-aim portion*/
+
+.content{
+    display: flex;
+    justify-content: space-around;
+    min-height: 40vh;
+    margin-top: 5%;
+}
+.content-img{
+    width: 50%;
+    max-height: 70vh;
+}
+.content-img img{
+    width: 50%;
+    height: auto;
+    display: flex;
+    object-fit: cover;
+    margin: auto;
+    filter: drop-shadow(0px 5px 3px rgb(3, 44, 1));
+    animation: drop 1.7s ease;
+    border-radius: 2%;
+}
+.aim{
+    width: 50%;
+    text-align: center;
+    justify-self: right;
+    padding: 0 5% 0 0;
+}
+.aim h1{
+    font-weight: bolder;
+    font-size: 200%;
+    letter-spacing: 0.3em;
+    color: #012241
+}
+.aim p{
+    color:rgb(54, 54, 54);
+    font-size: 170%;
+    margin-top: 3%;
+    letter-spacing: 0.1em;
+}
+
+/*Projects*/
+
+.projects{
+    width: 80%;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-around;
+}
+.project-1{
+    background-image: linear-gradient(white, #CDCDCD);
+    width: 40%;
+    border-radius: 4%;
+}
+.project-2{
+    background-image: linear-gradient(white, #CDCDCD);
+    width: 40%;
+    border-radius: 4%;
+}
+.project1-content{
+    text-align: center;
+    margin-top: 3%;
+    padding: 5%;
+}
+.project2-content{
+    text-align: center;
+    margin-top: 3%;
+    padding: 5%;
+}
+.project1-img{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+}
+.project2-img{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4%;
+}
+.project1-img img{
+    width: 100%;
+    height: auto;
+    filter: drop-shadow(0px 5px 3px rgb(156, 231, 152));
+    border-radius: 5%;
+}
+.project2-img img{
+    width: 100%;
+    height: auto;
+    filter: drop-shadow(0px 5px 3px rgb(130, 152, 212));
+    border-radius: 5%;
+}
+.project1-content h1{
+    font-size: 200%;
+    font-weight: bolder;
+}
+.project2-content h1{
+    font-size: 200%;
+    font-weight: bolder;
+}
+.project1-content p{
+    font-size: 80%;
+    font-weight: 400;
+    padding: 5%;
+}
+.project2-content p{
+    font-size: 80%;
+    font-weight: 400;
+    padding: 5%;
+}
+
+/*footer*/
+footer{
+    background-color: #572802;
+    margin-top: 10%;
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    color:rgb(161, 160, 160);
+    justify-content: space-between;
+}
+.motto{
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.links{
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 3%;
+}
+.contact{
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+}
+.motto-img{
+    width: 20%;
+    margin-top: 8%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.motto-img img{
+    border-radius: 50%;
+    border: 3px solid #FEA200;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.motto h1{
+    font-size: 80%;
+    color:rgb(161, 160, 160);
+    margin-top: 3%;
+}
+.links h1{
+    font-size: 120%;
+}
+.important-links{
+    margin-top: 2.7%;
+    list-style: none;
+    font-size: 80%;
+}
+.important-links a{
+    text-decoration: none;
+    color: rgb(161, 160, 160);
+}
+.important-links a:hover{
+    color: blue
+}
+.contact h1{
+    font-size: 120%;
+}
+.phone{
+    font-size: 80%;
+    margin-top: 2%;
+    display: block;
+    display: flex;
+}
+
+.phone img{
+    width: 5%;
+    height: auto;
+    border-radius: 50%;
+    margin-right: 1%;
+    opacity: 0.8;
+}
+
+@keyframes drop{
+    0%{
+        opacity: 0;
+        transform: translateY(-80px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+
+@media screen and (max-width: 1100px){
+    header{
+        height: 23vh;
+    }
+    .header-content h1{
+        font-size: 130%;
+    }
+    .extras{
+        padding: 5% 0 0 0;
+    }
+    .buttons button a{
+        font-size: 100%;
+        margin-right: 2%;
+    }
+    .buttons{
+        width: 80%;
+    }
+}
+@media screen and (max-width: 1000px){
+    .content{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .content-img, .aim{
+        width: 100%;
+    }
+    .content-img img{
+        width: 50%;
+    }
+    .aim{
+        margin-top: 3%;
+    }
+    .aim h1{
+        font-size: 150%;
+    }
+    .aim p{
+        font-size: 100%;
+    }
+}
+
+@media screen and (max-width: 700px){
+    .projects{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .project-1{
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .project-2{
+        width: 50%;
+        margin-top: 10%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .project1-content h1{
+        font-size: 150%;
+    }
+    .project2-content h1{
+        font-size: 150%;
+    }
+    .project1-content p{
+        margin-top: 3%;
+        font-size: 50%;
+        padding: 5%;
+    }
+    .project2-content p{
+        margin-top: 3%;
+        font-size: 50%;
+        padding: 5%;
+    }
+}
+@media screen and (max-width: 1000px){
+    footer{
+        height: 30vh;
+    }
+    .phone img{
+        opacity: 0;
+    }
+    .phone span{
+        font-size: 60%;
+    }
+}
+@media screen and (max-width: 440px){
+    .links h1, .contact h1{
+        font-size: 100%;
+    }
+    .header-content{
+        font-size: 80%;
+    }
+    .extras{
+        padding: 0.5%;
+    }
+
+}
